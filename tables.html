@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tables</title>
+    <style>
+        table{
+            width: 100%;
+            border: 2px solid blue
+
+        }
+        table td,th{
+            border: 2px solid red;
+            border-collapse:collapse;
+        }
+        td,th{
+            padding: 10px;
+            text-align: center;
+        }
+    tr:nth-child(odd){
+        background-color: aqua;
+    }
+    tr:nth-child(even){
+        background-color: orange;
+    }
+    tr.row1{
+        background-color: red;
+    }
+    
+    
+
+    .tcol1{
+        background-color: darkmagenta;
+    }
+        
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup span="1"class="tcol1"></colgroup>
+        
+        
+        <tr class="row1">
+        <td>Name</td>
+        <td>Email ID</td>
+        <td>phone</td>
+    </tr>
+    <tr>
+        <td rowspan="1">Divya</td>
+        <td>divyaaladakatti50@gmail.com</td>
+        <td>9620876760</td>
+    </tr>
+    <tr><td>swati S</td>
+        <td>swatiti967@gmail.com</td>
+        <td>1234567890</td>
+    </tr>
+        <tr>
+        <td>Vishal</td>
+        <td>vishal80@gmail.com</td>
+        <td>6877997055</td>
+    </tr>
+    <tr>
+        <td>Ujwal</td>
+        <td>ujwal349@gmai.com</td>
+        <td>4973490233</td>
+    </tr>
+    <tr>
+        <td>Chaitra</td>
+        <td>chaii002@gmail.com</td>
+        <td>1284278920</td>
+
+    </tr>
+
+</table>
+</body>
+</html>
+    
